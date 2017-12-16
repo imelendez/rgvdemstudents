@@ -1,8 +1,9 @@
-var theButton = document.getElementById("actionbttn");
-   theButton.onclick = function() {
-       document.getElementById("ActionForm").style.visibility='hidden';
-       document.querySelector("actionbttn").addEventListener('onclick', exit_alert);
+window.onload = function() {
+  document.getElementById("ActionForm").style.display = 'none';
+};
 
-       $( "actionbttn" ).click(function() {
-  alert( "Handler for .click() called." );
-});
+var theButton = document.getElementById('actionbttn');
+theButton.onclick = function() {
+document.getElementById("ActionForm").style.display='inline';
+document.getElementById("ActionForm").style.text-center;
+}
