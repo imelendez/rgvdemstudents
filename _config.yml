@@ -1,5 +1,6 @@
 # Welcome to Jekyll!
 #
+<<<<<<< HEAD
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -161,6 +162,68 @@ incremental: false
 
 
 # Markdown Processing
+=======
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: The Progressive Young Democrats
+
+# Short bio or description (displayed in the header)
+description: The Progressive Young Democrats. Rio Grande Valley students at The University of Rio Grande Valley (UTRGV).
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://pbs.twimg.com/profile_images/923666356683395072/lxNTfNRk_400x400.jpg
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram: rgvdemstudents
+  linkedin:
+  pinterest:
+  rss: feed
+  twitter: rgvdemstudents
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: http://rgvdemstudents.club/
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: "/rgvdemstudents"
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+>>>>>>> origin/master
 kramdown:
   input: GFM
   hard_wrap: false
