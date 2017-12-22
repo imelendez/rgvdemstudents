@@ -14,9 +14,9 @@ title                    : "Site Title"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
-url                      : http://rgvdemstudents.club/
+url                      :  http://rgvdemstudents.club/
 baseurl                  : "rgvdemstudents"
-repository               : "imelendez/rgvdemstudents"
+repository               : 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
