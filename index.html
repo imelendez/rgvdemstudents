@@ -4,16 +4,6 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111541774-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-111541774-1');
-    </script>
     <title>The Progressive Yound Democrats</title>
     <meta name="description" content="Students at UTRGV fighting for a more progressive state, with more oppotunities for all int the Rio Grande Valley.">
 
@@ -26,13 +16,13 @@
     <meta name="twitter:site" content="@rgvdemstudents" />
     <meta name="twitter:title" content="The Progressive Young Democrats" />
     <meta name="twitter:description" content="We are an students at The University of Texas Rio Grande Valley seeking a more progressive Democratic Party that represents out community. " />
-    <meta name="twitter:image" content="https://i.imgur.com/ya1Gy7P.png" />
+    <meta name="twitter:image" content="photos\RGVDemStudents.png" />
     <!-- facebook summary card meta data -->
     <meta property="og:url" content="http://rgvdemstudents.club/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="The Progressive Young Democrats" />
     <meta property="og:description" content="We are an students at The University of Texas Rio Grande Valley seeking a more progressive Democratic Party that represents out community. " />
-    <meta property="og:image" content="https://i.imgur.com/ya1Gy7P.png" />
+    <meta property="og:image" content="photos\RGVDemStudents.png" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -45,7 +35,24 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '199059900651602',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v2.11'
+      });
+    };
 
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -83,8 +90,14 @@
       <br />
       Join us.</h4><br>
                 <p>We are The Progressive Young Democrats at UTRGV. We are an organization of students from UTRGV who seek to increase progressive values in the Democratic Party through a student grassroots effort.</p>
-
-                <br><button class="btn btn-default btn-lg">Get in Touch</button>
+                <a href="https://twitter.com/intent/tweet?screen_name=RGVDemStudents&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-text="#tx2018 #utrgv #rgv " data-related="rgvdemstudents" data-show-count="false">Tweet to @RGVDemStudents</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div class="fb-messengermessageus"
+  messenger_app_id="199059900651602"
+  page_id="1481612688805294"
+  color="blue"
+  size="large">
+    <!--  <small | medium | standard | large | xlarge> -->
+</div>
             </div>
             <div class="col-sm-4">
                 <img width="100%" src="PYDLOGOwobackground.png" alt="organisation logo">
@@ -95,7 +108,9 @@
     <!-- Container (Issues1/2 Section) -->
     <div id="issues" class="container-fluid text-center">
         <h2>Issues</h2>
-        <h4></h4>
+        <h4>Join the conversation:</h4>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=RGVDems&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #RGVDems</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br>
         <br>
         <div class="row slideanim">
             <!-- education -->
@@ -242,6 +257,8 @@
                     <a href="https://www.instagram.com/rgvdemstudents/"><i class="fab fa-instagram logo-small"></i></a>
                     <!-- </div> -->
                     <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FRGVDemStudents%2F&width=96&layout=button&action=like&size=small&show_faces=true&share=true&height=65&appId" width="96" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    <a href="https://twitter.com/RGVDemStudents?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @RGVDemStudents</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
                 </div>
 
             </div>
@@ -251,11 +268,14 @@
     <!-- Add Google Maps -->
     <!-- <div id="googleMap" style="height:100%;width:100%;">
         <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTYynFUuiZYYRDPE5FvAb3Cw&key=AIzaSyCWkbYSpv3dL3KasW9TKj8od06G_vapLD8" allowfullscreen></iframe>
-    </div>
+    </div> -->
     <footer class="container-fluid text-center">
         <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
-        </a> -->
+        </a>
+        <a href="privacypolicy.html" title="priavacy policy">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
 
     </footer>
 
