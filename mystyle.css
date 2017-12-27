@@ -20,7 +20,7 @@ h4 {
 .jumbotron {
     background-color: #00aef3;
     color: #fff;
-    padding: 100px 25px;
+    /*padding: 100px 25px;*/
     font-family: Montserrat, sans-serif;
 }
 .container-fluid {
