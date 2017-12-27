@@ -25,16 +25,31 @@ h4 {
 }
 
 .jumbotronstylized {
-    background-color: #00aef3;
+    background-color: #E37C1C;
     color: #fff;
-    /*padding: 100px 25px;*/
     font: 400 15px Lato, sans-serif;
 }
+
+.importantJoinUs {
+    background-color: #00aef3;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+}
+
 .container-fluid {
     padding: 60px 50px;
 }
 .bg-grey {
     background-color: #f6f6f6;
+}
+
+.txt-white{
+  color: #ffffff;
+}
+.bg-styleorange {
+    background-color: #00aef3;
+    padding: 10px 20px;
 }
 .logo-small {
     color: #00aef3;
