@@ -140,12 +140,6 @@ footer .glyphicon {
     color: #f4511e;
 }
 
-#form-zip_code {
-    class=form-control !important;
-}
-#form-email {
-    class="form-control" !important;
-}
 
 .slideanim {visibility:hidden;}
 .slide {
