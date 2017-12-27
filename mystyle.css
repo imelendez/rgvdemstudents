@@ -23,6 +23,13 @@ h4 {
     /*padding: 100px 25px;*/
     font-family: Montserrat, sans-serif;
 }
+
+.jumbotronstylized {
+    background-color: #00aef3;
+    color: #fff;
+    /*padding: 100px 25px;*/
+    font: 400 15px Lato, sans-serif;
+}
 .container-fluid {
     padding: 60px 50px;
 }
@@ -132,6 +139,14 @@ footer .glyphicon {
     margin-bottom: 20px;
     color: #f4511e;
 }
+
+#form-zip_code {
+    class=form-control !important;
+}
+#form-email {
+    class="form-control" !important;
+}
+
 .slideanim {visibility:hidden;}
 .slide {
     animation-name: slide;
