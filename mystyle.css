@@ -38,7 +38,9 @@ h4 {
     background-color: #00aef3;
     color: #fff;
     border-style: solid;
-    border-color: #fff;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: #00aef3;
 }
 
 .container-fluid {
