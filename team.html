@@ -61,94 +61,94 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="http://rgvdemstudents.club/">HOME</a></li>
-                    <li><a href="#txgovcandtwitter">Governor Candidates</a></li>
-                    <li><a href="#rgvdemstwittersearch">#RGVDems</a></li>
-                    <li><a href="#rgvdemstudentstwitter">@RGVDemStudents</a></li>
-                    <!-- <li><a class="importantJoinUs" href="http://rgvdemstudents.club/#followus">FOLLOWUS</a></li> -->
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Container (Contact Section) -->
-    <div id="news" class="container-fluid text-center bg-grey">
-        <h1> Team Members (in progress) </h2>
-        <div class="row text-center slideanim">
-          <!-- Name | Major | Skillls | Prev Experince | Main Issues |  Fb,Tw,IG-->
-            <div id="ismael" class="col-sm-4">
-              <h1>Ismael</h1>
-                <div  class="thumbnail">
-                    <a class="twitter-timeline" href="https://twitter.com/RGVDemStudents/lists/tx-dem-gov-candidates?ref_src=twsrc%5Etfw">A Twitter List by RGVDemStudents</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
-            <div id="mimosa" class="col-sm-4">
-                <div class="thumbnail">
-                  <a class="twitter-timeline"  href="https://twitter.com/hashtag/RGVDems" data-widget-id="949522172640456705">#RGVDems Tweets</a>
-                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
-            </div>
-            <div id="marylou" class="col-sm-4">
-                <div class="thumbnail">
-                  <a class="twitter-timeline" href="https://twitter.com/RGVDemStudents?ref_src=twsrc%5Etfw">Tweets by RGVDemStudents</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div>
-          <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' />
-          <script src='https://actionnetwork.org/widgets/v3/form/turn-texas-blue-in-2018?format=js&source=widget'></script>
-          <div id='can-form-area-turn-texas-blue-in-2018' class="bg-styleorange" style='width: 100%'>
-              <!-- this div is the target for our HTML insertion -->
+    <div class="container-fluid">
+        <div class="row biotext bioimgbg">
+          <div class="col-md-4 bioimgbg">
+            <img  src="photos\ismael.jpg" width="150px" alt="Ismael Melendez photo"><br>
+              <div >
+                Ismael M <br>
+                Computer Science <br>
+                He/Him/His<br>
+                Education <br>
+              </div>
+          </div>
+          <div class="col-md-4 bioimgbg">
+            <img  src="photos\mimosa.jpg" width="150px" alt="Mimosa Thomas photo"><br>
+            Mimosa T <br>
+            Biology Pre-Med <br>
+            She/Her<br>
+            Immigration <br>
+          </div>
+          <div class="col-md-4 bioimgbg">
+            <img  src="photos\sandra.jpg" width="150px" alt="Sandra Barba photo"><br>
+            Sandra B <br>
+            Music Education with concentration in Voice  <br>
+            She/Her/Hers <br>
+            access to comprehensive sexual education and contraception <br>
           </div>
         </div>
-    </div>
+        <div class="col-md-4">
+            <div class="col">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+        </div>
 
 
-    </div>
-    <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
-        <a href="privacypolicy.html" title="priavacy policy">
-            <i class="fas fa-info-circle"></i>
-        </a>
-    </footer>
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
+        </div>
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </footer>
+        <script>
+            $(document).ready(function() {
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
 
-                    // Store hash
-                    var hash = this.hash;
+                        // Store hash
+                        var hash = this.hash;
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function() {
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 900, function() {
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-
-            $(window).scroll(function() {
-                $(".slideanim").each(function() {
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + 600) {
-                        $(this).addClass("slide");
-                    }
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
                 });
-            });
-        })
-    </script>
+
+                $(window).scroll(function() {
+                    $(".slideanim").each(function() {
+                        var pos = $(this).offset().top;
+
+                        var winTop = $(window).scrollTop();
+                        if (pos < winTop + 600) {
+                            $(this).addClass("slide");
+                        }
+                    });
+                });
+            })
+        </script>
 
 
 </body>
