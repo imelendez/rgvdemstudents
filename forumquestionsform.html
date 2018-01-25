@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111541774-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111541774-1');
+    </script>
+
+    <title>The Progressive Yound Democrats</title>
+    <meta name="description" content="Students at UTRGV fighting for a more progressive state, with more oppotunities for all int the Rio Grande Valley.">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We are an students at The University of Texas Rio Grande Valley seeking a more progressive Democratic Party that represents our community.">
+    <meta name="keywords" content="RGV, Rio Grande Valley, Hidalgo, Democrats, UTRGV">
+    <!-- twitter summary card meta data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@rgvdemstudents" />
+    <meta name="twitter:title" content="The Progressive Young Democrats" />
+    <meta name="twitter:description" content="We are an students at The University of Texas Rio Grande Valley seeking a more progressive Democratic Party that represents our community. " />
+    <meta name="twitter:image" content="photos\RGVDemStudents.png" />
+    <!-- facebook summary card meta data -->
+    <meta property="og:url" content="http://rgvdemstudents.club" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Progressive Young Democrats" />
+    <meta property="og:description" content="We are an students at The University of Texas Rio Grande Valley seeking a more progressive Democratic Party that represents our community. " />
+    <meta property="og:image" content="photos\RGVDemStudents.png" />
+    <meta property="fb:app_id" content="199059900651602" />
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a href="http://rgvdemstudents.club/"><img class="navbar-brand" src="PYDLOGOwobackground.png" alt="organisation logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://rgvdemstudents.club/">HOME</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container (Contact Section) -->
+    <div class="container-fluid">
+        <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' />
+        <script src='https://actionnetwork.org/widgets/v3/form/hidalgo-democratic-primary-debate?format=js&source=widget'></script>
+        <div id='can-form-area-hidalgo-democratic-primary-debate' style='width: 100%'>
+            <!-- this div is the target for our HTML insertion -->
+        </div>
+    </div>
+
+
+    </div>
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+
+
+</body>
+
+</html>
